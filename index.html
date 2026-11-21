@@ -1,97 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b1220">
-<meta name="description" content="Koodalingam Palanichamy — Engineering Leader, SaaS Architecture and Backend Platforms">
-<title>Koodalingam Palanichamy | Engineering Leader</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f1b2d">
+<meta name="description" content="Koodalingam Palanichamy: Engineering Manager, backend and platform engineering for enterprise SaaS.">
+<title>Koodalingam Palanichamy | Engineering Manager</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b1220;--panel:#111d30;--panel2:#16253b;--txt:#edf4fc;--muted:#a4b4c8;--line:#26374c;--mint:#69e0c1;--blue:#80b8ff;--violet:#b8a0ff;--max:1140px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.7 Manrope,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 42px));margin:auto}
-header{position:sticky;top:0;z-index:9;background:#0b1220df;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;font-size:1.2rem}.logo b{color:var(--mint)}.links{display:flex;gap:24px;color:var(--muted);font-size:.88rem}.links a:hover{color:var(--mint)}.menu{display:none;background:none;color:white;border:1px solid var(--line);border-radius:9px;padding:8px 12px}
-.hero{padding:90px 0 70px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:600px;height:600px;right:-200px;top:-270px;border-radius:50%;background:radial-gradient(circle,#69e0c125,transparent 68%);animation:float 9s ease-in-out infinite alternate}
-.heroGrid{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center;position:relative}.eyebrow{font:500 .75rem "DM Mono";letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}h1{font-size:clamp(2.8rem,6vw,5.2rem);line-height:1.04;letter-spacing:-.065em;margin:18px 0}.grad{background:linear-gradient(100deg,#fff,#91c3ff,#69e0c1);background-clip:text;color:transparent}.intro{max-width:670px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 17px;border-radius:11px;border:1px solid var(--line);font-weight:800;font-size:.88rem;transition:.2s}.btn:hover{transform:translateY(-3px)}.primary{background:var(--mint);color:#071b19;border-color:var(--mint)}.visual{height:360px;display:grid;place-items:center;position:relative}.orbit{width:310px;height:310px;border:1px solid #80b8ff55;border-radius:50%;position:relative;animation:spin 30s linear infinite}.orbit:before,.orbit:after{content:"";position:absolute;inset:35px;border:1px dashed #69e0c166;border-radius:50%}.orbit:after{inset:75px;border-style:solid;border-color:#b8a0ff55}.core{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:130px;height:130px;border-radius:28px;background:linear-gradient(145deg,#1c3d55,#14263c);border:1px solid #69e0c188;display:grid;place-items:center;text-align:center;animation:pulse 4s infinite}.core strong{font-size:2.2rem;display:block;line-height:1.1}.core small{font: .62rem "DM Mono";color:var(--mint)}.tag{position:absolute;background:#101d30;border:1px solid var(--line);padding:7px 10px;border-radius:9px;font:.68rem "DM Mono";animation:counterspin 30s linear infinite}.tag.a{top:5%;left:40%}.tag.b{right:-5%;top:45%}.tag.c{bottom:5%;left:42%}.tag.d{left:-5%;top:45%}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:35px}.stat,.card,.impact,.project,.lead{background:var(--panel);border:1px solid var(--line);border-radius:16px}.stat{padding:18px}.stat strong{display:block;font-size:1.65rem;letter-spacing:-.05em}.stat span{font-size:.78rem;color:var(--muted)}
-section{padding:75px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:28px}.head h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.06em;margin:8px 0 0}.head p{max-width:470px;color:var(--muted);margin:0}.two{display:grid;grid-template-columns:1fr 1fr;gap:17px}.card{padding:25px}.card p{color:var(--muted);margin:0 0 13px}.card p:last-child{margin:0}.quote{font-size:1.35rem;color:var(--txt)!important;line-height:1.45}.quote em{color:var(--mint);font-style:normal}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill{padding:21px;transition:.2s}.skill:hover,.project:hover,.impact:hover{transform:translateY(-4px);border-color:#69e0c177}.ico{width:40px;height:40px;border-radius:12px;background:#69e0c119;color:var(--mint);display:grid;place-items:center;font-size:1.25rem;margin-bottom:12px}.skill h3,.lead h3{margin:0 0 7px;font-size:1rem}.skill p,.lead p{color:var(--muted);font-size:.87rem;margin:0}
-.timeline{border-left:1px solid #80b8ff66;margin-left:8px;padding-left:28px}.item{position:relative;padding-bottom:29px}.item:last-child{padding:0}.item:before{content:"";position:absolute;left:-34px;top:5px;width:11px;height:11px;background:var(--mint);border-radius:50%;box-shadow:0 0 0 5px #69e0c11c}.date,.meta{font: .72rem "DM Mono";color:var(--mint);letter-spacing:.05em}.item h3{margin:5px 0}.item h4{margin:0 0 8px;color:var(--muted);font-size:.9rem}.item p{margin:0;color:var(--muted);max-width:900px}
-.impact{padding:22px;min-height:160px;transition:.2s}.num{font-size:2rem;font-weight:800;letter-spacing:-.06em;color:var(--mint)}.impact h3{font-size:1rem;margin:4px 0}.impact p{font-size:.85rem;color:var(--muted);margin:0}
-.projects{display:grid;grid-template-columns:1fr 1fr;gap:17px}.project{overflow:hidden;transition:.2s}.art{height:180px;background:#10243a}.art svg{width:100%;height:100%;display:block}.pbody{padding:21px}.pbody h3{margin:5px 0}.pbody p{font-size:.88rem;color:var(--muted);margin:0 0 13px}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{font:.68rem "DM Mono";border:1px solid var(--line);border-radius:99px;padding:5px 9px;color:#c7d6e7}
-.contact{padding:34px;border:1px solid #69e0c155;border-radius:20px;background:radial-gradient(circle at 90% 0,#69e0c11c,transparent 38%),var(--panel);display:flex;align-items:center;justify-content:space-between;gap:25px}.contact h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.06em;line-height:1.1;margin:7px 0}.contact p{color:var(--muted);margin:0}footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-.reveal{opacity:0;transform:translateY(17px);transition:opacity .7s,transform .7s}.reveal.show{opacity:1;transform:none}
-@keyframes spin{to{transform:rotate(360deg)}}@keyframes counterspin{to{transform:rotate(-360deg)}}@keyframes pulse{50%{box-shadow:0 0 65px #69e0c13b}}@keyframes float{to{transform:translate(-30px,35px)}}
-@media(max-width:850px){.heroGrid,.two{grid-template-columns:1fr}.visual{height:320px}.stats{grid-template-columns:repeat(2,1fr)}.grid3{grid-template-columns:repeat(2,1fr)}.head{display:block}.head p{margin-top:12px}.links{display:none;position:absolute;top:69px;left:0;right:0;padding:18px 22px;background:#0b1220;flex-direction:column}.links.open{display:flex}.menu{display:block}}
-@media(max-width:560px){.wrap{width:calc(100% - 30px)}.hero{padding:60px 0}.visual{height:275px}.orbit{width:250px;height:250px}.core{width:105px;height:105px}.tag{font-size:.57rem;padding:6px}.stats,.grid3,.projects{grid-template-columns:1fr}.contact{display:block;padding:24px}.contact .actions{margin-top:20px}section{padding:58px 0}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+:root{--ink:#0f1b2d;--ink2:#18293f;--paper:#f3f6fa;--white:#fff;--line:#d5dde8;--muted:#52627a;--teal:#0b8f86;--teall:#5fe0d3;--amber:#d9892b;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.03em;line-height:1.08;margin:0}
+a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:4px}
+header{position:sticky;top:0;z-index:5;background:#f3f6facc;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{height:64px;display:flex;align-items:center;justify-content:space-between}
+.logo{font:700 1.1rem "Bricolage Grotesque",sans-serif;text-decoration:none}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-size:.95rem;color:var(--muted)}
+nav a{text-decoration:none}nav a:hover{color:var(--teal)}
+.hero{padding:72px 0 56px}.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+h1{font-size:clamp(2.5rem,5.4vw,4.4rem);font-weight:700}
+.lead{font-size:1.15rem;color:var(--muted);max-width:34em;margin:22px 0 0}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:13px 20px;border-radius:10px;border:1.5px solid var(--ink);font-weight:600;font-size:.95rem;text-decoration:none;transition:background .2s,color .2s}
+.btn.p{background:var(--ink);color:var(--white)}.btn:hover{background:var(--teal);border-color:var(--teal);color:var(--white)}
+.org{background:var(--ink);border-radius:22px;padding:22px 22px 18px;color:#dbe6f5;position:relative}
+.org svg{width:100%;height:auto;display:block}
+.count{position:absolute;top:18px;right:22px;text-align:right;font:700 2.6rem/1 "Bricolage Grotesque",sans-serif;color:var(--teall)}
+.count small{display:block;font:500 .78rem "Instrument Sans",sans-serif;color:#9fb2cc;margin-top:6px}
+.cap{font-size:.82rem;color:#9fb2cc;margin:6px 0 0}
+.n{opacity:0;transform:scale(.4);transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,1.4,.4,1) forwards;animation-delay:var(--d)}
+.l{opacity:0;animation:fade .5s forwards;animation-delay:var(--d)}
+@keyframes pop{to{opacity:1;transform:none}}@keyframes fade{to{opacity:1}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:56px;border-top:1.5px solid var(--ink)}
+.stats div{padding:18px 18px 0 0}.stats b{display:block;font:700 2.2rem/1.1 "Bricolage Grotesque",sans-serif}.stats span{font-size:.9rem;color:var(--muted)}
+section{padding:80px 0;border-top:1px solid var(--line)}
+.sh{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;margin-bottom:36px}
+.sh h2{font-size:clamp(1.9rem,3.6vw,2.8rem)}.sh p{margin:0;color:var(--muted);align-self:end}
+.lead-rows>div{display:grid;grid-template-columns:1fr 2.2fr;gap:40px;padding:22px 0;border-top:1px solid var(--line)}
+.lead-rows h3{font-size:1.3rem}.lead-rows p{margin:0;color:var(--muted)}
+.tl{border-left:2px solid var(--ink);padding-left:30px;margin-left:6px}
+.role{position:relative;padding-bottom:36px}.role:last-child{padding-bottom:0}
+.role:before{content:"";position:absolute;left:-39px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--teal);border:3px solid var(--paper)}
+.when{font-weight:600;color:var(--teal);font-size:.92rem}.role h3{font-size:1.35rem;margin:4px 0 2px}.role h4{margin:0 0 10px;font-weight:500;color:var(--muted);font-size:.95rem}
+.role ul{margin:0;padding-left:18px;color:var(--muted)}.role li{margin:5px 0;max-width:62em}
+.bars{display:grid;gap:22px}
+.bar{display:grid;grid-template-columns:230px 1fr 70px;gap:18px;align-items:center}
+.bar span{font-weight:600}.bar small{display:block;color:var(--muted);font-weight:400;font-size:.85rem}
+.track{height:16px;border-radius:99px;background:#e1e8f1;overflow:hidden}
+.fill{height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--teal),var(--teall));transition:width 1.1s cubic-bezier(.2,.8,.2,1)}
+.bar b{font:700 1.5rem "Bricolage Grotesque",sans-serif;text-align:right}
+.mult{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.mult div{background:var(--ink);color:#dbe6f5;border-radius:16px;padding:22px}.mult b{display:block;font:700 2.6rem/1 "Bricolage Grotesque",sans-serif;color:var(--teall)}.mult span{font-size:.92rem}
+.work>article{display:grid;grid-template-columns:1fr 2fr 1.1fr;gap:32px;padding:26px 0;border-top:1px solid var(--line);align-items:start}
+.work h3{font-size:1.25rem}.work p{margin:0;color:var(--muted)}.tags{font-size:.88rem;color:var(--ink2);font-weight:500}
+.contact{background:var(--ink);color:#dbe6f5;border-top:0}.contact h2{color:var(--white);font-size:clamp(2rem,4.4vw,3.4rem);max-width:14em}
+.contact p{max-width:36em;margin:18px 0 0}.contact .btn{border-color:var(--teall);color:var(--teall)}.contact .btn.p{background:var(--teall);color:var(--ink)}
+.contact .btn:hover{background:var(--white);border-color:var(--white);color:var(--ink)}
+footer{background:var(--ink);color:#9fb2cc;font-size:.85rem;padding:0 0 28px}footer .wrap{border-top:1px solid #2a3d57;padding-top:20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:860px){.hg,.sh,.lead-rows>div,.work>article{grid-template-columns:1fr;gap:12px}.stats{grid-template-columns:repeat(2,1fr)}.bar{grid-template-columns:1fr 60px}.bar .track{grid-column:1/-1;order:3}.mult{grid-template-columns:1fr}nav ul li:not(:last-child){display:none}section{padding:60px 0}}
+@media(prefers-reduced-motion:reduce){.n,.l{animation:none;opacity:1;transform:none}.fill{transition:none}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header><div class="wrap"><nav><a class="logo" href="#home">KP<b>.</b></a><div class="links" id="links"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#impact">Impact</a><a href="#work">Selected Work</a><a href="#contact">Contact</a></div><button class="menu" id="menu">Menu</button></nav></div></header>
-<main>
-<section class="hero" id="home" style="border:0"><div class="wrap">
-<div class="heroGrid"><div class="reveal"><div class="eyebrow">Engineering Leadership · SaaS · Distributed Systems</div><h1>Building teams.<br><span class="grad">Scaling systems.</span></h1>
-<p class="intro">I'm <b>Koodalingam Palanichamy</b>, an engineering leader with 11+ years of experience building and operating enterprise SaaS platforms. I lead backend and infrastructure engineering teams, connect technical strategy with execution, and focus on reliability, scale and meaningful product outcomes.</p>
-<div class="actions"><a class="btn primary" href="#contact">Let's connect ↗</a><a class="btn" href="#experience">Explore my journey ↓</a></div></div>
-<div class="visual reveal"><div class="orbit"><span class="tag a">ARCHITECTURE</span><span class="tag b">RELIABILITY</span><span class="tag c">PEOPLE</span><span class="tag d">DELIVERY</span></div><div class="core"><div><strong>11+</strong><small>YEARS BUILDING</small></div></div></div></div>
-<div class="stats reveal"><div class="stat"><strong>12</strong><span>Engineers led</span></div><div class="stat"><strong>10M+</strong><span>Platform users supported</span></div><div class="stat"><strong>99.99%</strong><span>Platform availability</span></div><div class="stat"><strong>11+</strong><span>Years in software engineering</span></div></div>
+<header><div class="wrap"><nav aria-label="Primary"><a class="logo" href="#top">Koodalingam P.</a>
+<ul><li><a href="#lead">Leadership</a></li><li><a href="#experience">Experience</a></li><li><a href="#impact">Impact</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul></nav></div></header>
+<main id="top">
+<div class="hero"><div class="wrap">
+<div class="hg">
+<div>
+<h1>I build engineering teams that keep SaaS platforms fast, safe and available.</h1>
+<p class="lead">Engineering Manager with 11+ years at Zoho Corporation. I lead the Core Infrastructure &amp; Backend team behind Zoho Projects, a platform serving 10M+ users at 99.99% availability.</p>
+<div class="btns"><a class="btn p" href="#contact">Get in touch</a><a class="btn" href="#experience">See my experience</a></div>
+</div>
+<div class="org" role="img" aria-label="Team structure: one manager, three lead engineers, nine engineers">
+<div class="count"><span id="num">0</span><small>engineers led</small></div>
+<svg id="orgsvg" viewBox="0 0 420 290" aria-hidden="true"></svg>
+<p class="cap">Current structure: 3 Lead Engineers and 9 Engineers. The team grew from 3 to 12 under my management.</p>
+</div>
+</div>
+<div class="stats"><div><b>3 &rarr; 12</b><span>Team grown under my management</span></div><div><b>10M+</b><span>Platform users supported</span></div><div><b>99.99%</b><span>Platform availability</span></div><div><b>11+</b><span>Years at Zoho</span></div></div>
+</div></div>
+
+<section id="lead"><div class="wrap">
+<div class="sh"><h2>How I lead</h2><p>Management grounded in hands-on engineering depth. I lead through three Lead Engineers and stay close to the technical decisions that matter.</p></div>
+<div class="lead-rows">
+<div><h3>People</h3><p>Grew the team from 3 to 12 and developed three Lead Engineers who own delivery areas. I run performance reviews and appraisals for all 12 engineers, mentor, and plan careers. I also hire and interview for my team and for other engineering teams.</p></div>
+<div><h3>Delivery</h3><p>I own roadmap planning, prioritization, resource allocation and technical strategy, and partner with Product, Sales, Support, UI/UX and other engineering teams to turn customer needs into plans.</p></div>
+<div><h3>Platform health</h3><p>I own reliability for Zoho Projects across backend infrastructure, DevOps, SRE, performance, database migration and sandbox engineering, and lead platform upgrades for both scaling and security patching.</p></div>
+<div><h3>Technical direction</h3><p>I guide architecture design reviews and code reviews across teams, set engineering standards, and drive adoption of AI-assisted engineering with AI agents, MCP, GitHub Copilot and Claude Code.</p></div>
+</div></div></section>
+
+<section id="experience"><div class="wrap">
+<div class="sh"><h2>Experience</h2><p>Eleven years at one company, from building backend features to managing the team that runs the platform.</p></div>
+<div class="tl">
+<article class="role"><div class="when">May 2020 to present</div><h3>Engineering Manager, Core Infrastructure &amp; Backend</h3><h4>Zoho Corporation, Chennai (designation: Member Technical Staff)</h4>
+<ul><li>Manage 3 Lead Engineers and 9 Engineers; hire, review, appraise and develop the team.</li><li>Own reliability and delivery for Zoho Projects: 10M+ users, 99.99% availability.</li><li>Lead platform upgrades for scalability and security patching.</li><li>2021: designed the Sandbox high-level design for syncing configuration between Sandbox and production.</li><li>Designed Custom Reports and Dashboards supporting about 20M reports and 2M dashboards.</li></ul></article>
+<article class="role"><div class="when">May 2018 to May 2020</div><h3>Engineering Lead</h3><h4>Zoho Corporation, Chennai</h4>
+<ul><li>Architected a common migration framework with zero data loss for 1,000+ enterprise customers.</li><li>Designed JVM-based caching that cut database load by 50%; led CDN adoption for about 3x faster delivery.</li><li>Set REST API standards; delivered a standalone database migration on schedule for a strategic $1M customer.</li></ul></article>
+<article class="role"><div class="when">May 2015 to May 2018</div><h3>Software Engineer</h3><h4>Zoho Corporation, Chennai</h4>
+<ul><li>Built Custom Domains, Redis caching, Kafka-based async processing and internal monitoring tools.</li><li>Optimized SQL and report generation for up to 5x faster processing.</li></ul></article>
+</div></div></section>
+
+<section id="impact"><div class="wrap">
+<div class="sh"><h2>Engineering impact</h2><p>Selected results from performance, caching and reliability work. Each bar shows the reduction achieved on its own workload.</p></div>
+<div class="bars" id="bars">
+<div class="bar"><span>JVM caching architecture<small>Database load</small></span><div class="track"><div class="fill" data-w="50"></div></div><b>-50%</b></div>
+<div class="bar"><span>Audit-log export and backup<small>Database load, 10M+ records</small></span><div class="track"><div class="fill" data-w="70"></div></div><b>-70%</b></div>
+<div class="bar"><span>Kafka async processing<small>End-user latency</small></span><div class="track"><div class="fill" data-w="50"></div></div><b>-50%</b></div>
+<div class="bar"><span>Redis caching<small>MySQL dependency</small></span><div class="track"><div class="fill" data-w="30"></div></div><b>-30%</b></div>
+</div>
+<div class="mult"><div><b>3x</b><span>Faster product delivery from CDN adoption across data centers</span></div><div><b>5x</b><span>Faster SQL and report-generation workloads</span></div><div><b>1,000+</b><span>Enterprise migrations with zero data loss</span></div></div>
 </div></section>
 
-<section id="about"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">01 / About</div><h2>Leadership grounded<br>in engineering depth.</h2></div><p>I bring together people leadership, platform thinking and architectural experience to help teams deliver dependable software at scale.</p></div>
-<div class="two"><article class="card reveal"><p class="quote">“Great engineering is the balance of <em>people, systems and execution.</em>”</p><p>At Zoho Corporation, my responsibilities have progressively expanded across software engineering, technical architecture and engineering leadership. I currently manage a 12-member Core Infrastructure &amp; Backend team supporting Zoho Projects.</p><p>My work spans backend infrastructure, DevOps, SRE, performance engineering, database migration and sandbox engineering, alongside roadmap planning, resource allocation and engineer development.</p></article>
-<article class="card reveal"><h3>How I lead</h3><p><b>People development</b><br>Hiring and interviewing, performance reviews, appraisals, feedback, mentoring and career development.</p><p><b>Engineering execution</b><br>Clear priorities, practical roadmaps, ownership, delivery discipline and cross-functional alignment.</p><p><b>Technical direction</b><br>Architecture reviews, reliability, scalability, performance and sustainable engineering practices.</p></article></div></div></section>
-
-<section id="expertise"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">02 / Expertise</div><h2>Where I create<br>the most value.</h2></div><p>A blend of management capability and technical depth across the lifecycle of large-scale SaaS products.</p></div>
-<div class="grid3">
-<article class="card skill reveal"><div class="ico">◎</div><h3>People &amp; Team Leadership</h3><p>Hiring and interviewing, performance reviews, appraisals, mentoring and career development.</p></article>
-<article class="card skill reveal"><div class="ico">⌁</div><h3>Strategy &amp; Delivery</h3><p>Technical strategy, roadmap planning, resource allocation, prioritization and cross-functional execution.</p></article>
-<article class="card skill reveal"><div class="ico">◇</div><h3>Platform Architecture</h3><p>SaaS architecture, distributed systems, system design, API standards and scalable backend platforms.</p></article>
-<article class="card skill reveal"><div class="ico">↗</div><h3>Reliability &amp; Performance</h3><p>Production ownership, high availability, SRE, observability, performance engineering and database scalability.</p></article>
-<article class="card skill reveal"><div class="ico">⌘</div><h3>Backend &amp; Data</h3><p>Java, Spring Boot, MySQL, Redis, Kafka, Memcached, Elasticsearch, REST APIs and data migration.</p></article>
-<article class="card skill reveal"><div class="ico">✳</div><h3>AI-assisted Engineering</h3><p>AI agents, MCP, GitHub Copilot, Claude Code, AI code generation and engineering automation.</p></article>
+<section id="work"><div class="wrap">
+<div class="sh"><h2>Selected work</h2><p>Representative initiatives. Details are described at a high level and do not expose proprietary systems.</p></div>
+<div class="work">
+<article><h3>Common migration framework</h3><p>One framework for portal-to-portal, data-center-to-data-center and third-party-to-Zoho migrations, delivering zero data loss for 1,000+ enterprise customers.</p><div class="tags">Migration, reliability, enterprise SaaS</div></article>
+<article><h3>Sandbox architecture</h3><p>High-level design for replicating and synchronizing custom configuration between Sandbox and production environments (2021).</p><div class="tags">Platform engineering, HLD</div></article>
+<article><h3>Custom Reports and Dashboards</h3><p>Reporting foundation supporting about 20M custom reports and 2M dashboards.</p><div class="tags">Backend, data, scale</div></article>
+<article><h3>AI-assisted engineering</h3><p>Adoption of AI agents, MCP, GitHub Copilot and Claude Code across engineering workflows for productivity and automation.</p><div class="tags">AI agents, MCP, automation</div></article>
 </div></div></section>
 
-<section id="experience"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">03 / Experience</div><h2>Growing scope.<br>Increasing ownership.</h2></div><p>My journey at Zoho has moved from building backend features to leading teams, technical direction and platform-wide engineering initiatives.</p></div>
-<div class="timeline">
-<article class="item reveal"><div class="date">MAY 2020 — PRESENT</div><h3>Technical Architecture &amp; Engineering Leadership</h3><h4>Member Technical Staff · Zoho Corporation · Chennai</h4><p>Manage a 12-member Core Infrastructure &amp; Backend team (3 Lead Engineers and 9 Engineers). Own architecture, engineering delivery, reliability, performance and people development. Participate in hiring and interviewing, conduct performance reviews and appraisals, and support career development. Oversee Backend Infrastructure, DevOps, SRE, Performance Engineering, Database Migration and Sandbox Engineering. Drive roadmaps, resource allocation and customer-facing technical priorities.</p></article>
-<article class="item reveal"><div class="date">MAY 2018 — MAY 2020</div><h3>Engineering Lead</h3><h4>Zoho Corporation · Chennai</h4><p>Led architecture and engineering initiatives including a common migration framework, JVM caching architecture, CDN adoption, REST API standards and Sandbox architecture. Mentored engineers and coordinated adoption of engineering standards across product modules.</p></article>
-<article class="item reveal"><div class="date">MAY 2015 — MAY 2018</div><h3>Software Engineer</h3><h4>Zoho Corporation · Chennai</h4><p>Built Custom Domains, Redis caching, audit-log export and backup workflows, SQL/reporting optimizations, Kafka-based asynchronous processing and internal developer tools.</p></article>
-</div></div></section>
-
-<section id="impact"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">04 / Engineering Impact</div><h2>Outcomes over<br>activity.</h2></div><p>Selected outcomes from platform, performance, migration and customer engineering initiatives.</p></div>
-<div class="grid3">
-<article class="impact reveal"><div class="num">50%</div><h3>Lower database load</h3><p>JVM-based caching architecture reduced database load by 50%.</p></article>
-<article class="impact reveal"><div class="num">~70%</div><h3>Lower database load</h3><p>Automated audit-log export and backup workflows handling 10M+ records.</p></article>
-<article class="impact reveal"><div class="num">~3×</div><h3>Faster product delivery</h3><p>CDN adoption across Zoho data centers improved delivery performance.</p></article>
-<article class="impact reveal"><div class="num">5×</div><h3>Faster processing</h3><p>SQL and report-generation optimizations for large-scale workloads.</p></article>
-<article class="impact reveal"><div class="num">~50%</div><h3>Lower end-user latency</h3><p>Kafka-based asynchronous request processing optimization.</p></article>
-<article class="impact reveal"><div class="num">1,000+</div><h3>Enterprise customer migrations</h3><p>Common migration framework designed for zero-data-loss migrations.</p></article>
-</div></div></section>
-
-<section id="work"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">05 / Selected Work</div><h2>Systems built<br>for real-world scale.</h2></div><p>Representative initiatives. Diagrams are illustrative visuals, not screenshots of proprietary Zoho systems.</p></div>
-<div class="projects">
-<article class="project reveal"><div class="art"><svg viewBox="0 0 600 180" aria-label="Migration pipeline diagram"><rect width="600" height="180" fill="#10243a"/><g fill="#1b3650" stroke="#69e0c1" stroke-width="2"><rect x="35" y="53" width="130" height="70" rx="12"/><rect x="235" y="53" width="130" height="70" rx="12"/><rect x="435" y="53" width="130" height="70" rx="12"/></g><g stroke="#80b8ff" stroke-width="3" fill="none"><path d="M165 88H235m-15 -9 15 9 -15 9M365 88H435m-15 -9 15 9 -15 9"/></g><g fill="#edf4fc" font-family="Arial" text-anchor="middle"><text x="100" y="82">Source</text><text x="300" y="82">Migration</text><text x="500" y="82">Destination</text><text x="300" y="151" fill="#69e0c1" font-size="12">ZERO-DATA-LOSS PIPELINE</text></g><circle cx="300" cy="35" r="6" fill="#69e0c1"><animate attributeName="cy" values="30;40;30" dur="1.8s" repeatCount="indefinite"/></circle></svg></div><div class="pbody"><div class="meta">Platform Engineering · Data Migration</div><h3>Common Migration Framework</h3><p>Designed a common framework for portal-to-portal, data-center-to-data-center and third-party-to-Zoho migrations, supporting zero data loss for 1,000+ enterprise customers.</p><div class="chips"><span class="chip">Migration</span><span class="chip">Reliability</span><span class="chip">Enterprise SaaS</span></div></div></article>
-<article class="project reveal"><div class="art"><svg viewBox="0 0 600 180" aria-label="Cache and database architecture diagram"><rect width="600" height="180" fill="#10243a"/><g fill="#1b3650" stroke="#80b8ff" stroke-width="2"><rect x="35" y="53" width="130" height="70" rx="12"/><rect x="235" y="53" width="130" height="70" rx="12"/><rect x="435" y="53" width="130" height="70" rx="12"/></g><g stroke="#69e0c1" stroke-width="3"><path d="M165 88H235m-15 -9 15 9 -15 9M365 88H435m-15 -9 15 9 -15 9"/></g><g fill="#edf4fc" font-family="Arial" text-anchor="middle"><text x="100" y="82">API</text><text x="300" y="82">JVM Cache</text><text x="500" y="82">Database</text><text x="300" y="151" fill="#69e0c1" font-size="12">50% DATABASE LOAD REDUCTION</text></g><circle cx="200" cy="88" r="5" fill="#69e0c1"><animate attributeName="r" values="3;7;3" dur="1.3s" repeatCount="indefinite"/></circle></svg></div><div class="pbody"><div class="meta">Performance Engineering · Caching</div><h3>JVM-based Caching Architecture</h3><p>Designed caching architecture that reduced database load by 50% and improved query and cache response performance by approximately 50%.</p><div class="chips"><span class="chip">Java</span><span class="chip">Caching</span><span class="chip">Performance</span></div></div></article>
-<article class="project reveal"><div class="art"><svg viewBox="0 0 600 180" aria-label="Distributed CDN network illustration"><rect width="600" height="180" fill="#10243a"/><g stroke="#69e0c1" stroke-width="2"><path d="M300 90L130 45M300 90L470 45M300 90L130 140M300 90L470 140"/></g><g fill="#1b3650" stroke="#69e0c1" stroke-width="2"><circle cx="300" cy="90" r="34"/><rect x="65" y="22" width="130" height="45" rx="9"/><rect x="405" y="22" width="130" height="45" rx="9"/><rect x="65" y="117" width="130" height="45" rx="9"/><rect x="405" y="117" width="130" height="45" rx="9"/></g><g fill="#edf4fc" font-family="Arial" text-anchor="middle"><text x="300" y="95">Origin</text><text x="130" y="50">Edge POP 1</text><text x="470" y="50">Edge POP 2</text><text x="130" y="145">Edge POP 3</text><text x="470" y="145">Edge POP 4</text></g><circle r="5" fill="#80b8ff"><animateMotion dur="3s" repeatCount="indefinite" path="M300 90L130 45L300 90L470 140L300 90"/></circle></svg></div><div class="pbody"><div class="meta">Infrastructure · Content Delivery</div><h3>CDN Adoption Across Data Centers</h3><p>Led CDN infrastructure adoption across Zoho data centers, improving product delivery performance by approximately 3x.</p><div class="chips"><span class="chip">CDN</span><span class="chip">Infrastructure</span><span class="chip">Scale</span></div></div></article>
-<article class="project reveal"><div class="art"><svg viewBox="0 0 600 180" aria-label="AI-assisted engineering workflow"><rect width="600" height="180" fill="#10243a"/><g fill="#1b3650" stroke="#b8a0ff" stroke-width="2"><rect x="35" y="53" width="130" height="70" rx="12"/><rect x="235" y="53" width="130" height="70" rx="12"/><rect x="435" y="53" width="130" height="70" rx="12"/></g><g stroke="#b8a0ff" stroke-width="3"><path d="M165 88H235m-15 -9 15 9 -15 9M365 88H435m-15 -9 15 9 -15 9"/></g><g fill="#edf4fc" font-family="Arial" text-anchor="middle"><text x="100" y="82">Engineer</text><text x="300" y="82">AI Agent</text><text x="500" y="82">Workflow</text><text x="300" y="151" fill="#69e0c1" font-size="12">AI-ASSISTED ENGINEERING</text></g><circle cx="200" cy="88" r="5" fill="#69e0c1"><animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/></circle></svg></div><div class="pbody"><div class="meta">AI · Engineering Productivity</div><h3>AI-assisted Engineering Adoption</h3><p>Leading adoption of AI-assisted development workflows using AI Agents, MCP, GitHub Copilot and Claude Code for engineering productivity and automation.</p><div class="chips"><span class="chip">AI Agents</span><span class="chip">MCP</span><span class="chip">Automation</span></div></div></article>
-</div></div></section>
-
-<section id="leadership"><div class="wrap"><div class="head reveal"><div><div class="eyebrow">06 / Leadership Approach</div><h2>Build capability.<br>Enable ownership.</h2></div><p>Create an environment where engineers make sound decisions, grow capabilities and deliver outcomes together.</p></div><div class="grid3">
-<article class="card skill reveal"><h3>Develop people</h3><p>Set clear expectations, give actionable feedback, conduct performance reviews and appraisals, and support career growth.</p></article>
-<article class="card skill reveal"><h3>Grow teams</h3><p>Participate in hiring and interviewing, assess engineering fundamentals and problem-solving, and strengthen team capability.</p></article>
-<article class="card skill reveal"><h3>Make delivery predictable</h3><p>Translate priorities into roadmaps, balance capacity, manage dependencies and keep stakeholders aligned.</p></article>
-</div></div></section>
-
-<section id="contact"><div class="wrap"><div class="contact reveal"><div><div class="eyebrow">Let's connect</div><h2>Building something<br>meaningful?</h2><p>Interested in engineering leadership opportunities across backend, platform and SaaS engineering.</p></div><div class="actions"><a class="btn primary" href="mailto:koodalingam93@gmail.com">Email me ↗</a><a class="btn" href="https://www.linkedin.com/in/koodalingam-p-46762587/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></div></section>
+<section class="contact" id="contact"><div class="wrap">
+<h2>Open to Engineering Manager and Senior Engineering Manager roles.</h2>
+<p>Looking for backend, platform and SaaS engineering leadership in Chennai or remote across India.</p>
+<div class="btns"><a class="btn p" href="mailto:koodalingam93@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/koodalingam-p-46762587/" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></section>
 </main>
-<footer><div class="wrap foot"><span>© <span id="year"></span> Koodalingam Palanichamy</span><span>Engineering Leadership · SaaS · Distributed Systems</span><a href="#home">Back to top ↑</a></div></footer>
+<footer><div class="wrap"><span>&copy; <span id="yr">2026</span> Koodalingam Palanichamy</span><a href="#top">Back to top</a></div></footer>
 <script>
-const menu=document.getElementById('menu'),links=document.getElementById('links');
-menu.addEventListener('click',()=>links.classList.toggle('open'));
-links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
-document.getElementById('year').textContent=new Date().getFullYear();
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');observer.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches,s='',L=[70,210,350],o=[-52,0,52],d=0.3;
+function ln(x1,y1,x2,y2,t){return '<line class="l" style="--d:'+t+'s" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="#35506f" stroke-width="2"/>'}
+function nd(x,y,r,c,t){return '<circle class="n" style="--d:'+t+'s" cx="'+x+'" cy="'+y+'" r="'+r+'" fill="'+c+'"/>'}
+L.forEach(function(x,i){s+=ln(210,48,x,125,d+i*.25)});
+L.forEach(function(x,i){o.forEach(function(dx,j){s+=ln(x,125,x+dx,235,1.5+i*.3+j*.12)})});
+s+=nd(210,48,22,'#dbe6f5',0);
+L.forEach(function(x,i){s+=nd(x,125,17,'#d9892b',d+i*.25+.2)});
+var t=0;L.forEach(function(x,i){o.forEach(function(dx,j){s+=nd(x+dx,235,11,'#5fe0d3',1.6+i*.3+j*.12)})});
+document.getElementById('orgsvg').innerHTML=s;
+var num=document.getElementById('num');
+if(reduce){num.textContent=12}else{
+var steps=[[600,3],[1700,4],[1850,5],[1990,6],[2200,7],[2350,8],[2490,9],[2700,10],[2850,11],[2990,12]];
+steps.forEach(function(p){setTimeout(function(){num.textContent=p[1]},p[0])});}
+var bars=document.querySelectorAll('.fill');
+function go(){bars.forEach(function(b){b.style.width=b.dataset.w+'%'})}
+if(reduce||!('IntersectionObserver' in window)){go()}else{
+new IntersectionObserver(function(e,ob){if(e[0].isIntersecting){go();ob.disconnect()}},{threshold:.3}).observe(document.getElementById('bars'))}
+document.getElementById('yr').textContent=new Date().getFullYear();
+})();
 </script>
-</body></html>
+</body>
+</html>
